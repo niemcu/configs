@@ -4,6 +4,10 @@ filetype off                  " required
 set rtp+=~/.vim/bundle/Vundle.vim
 set go+=c
 set laststatus=2
+set number
+
+syntax on
+
 
 autocmd StdinReadPre * let s:std_in=1
 autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
