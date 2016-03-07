@@ -2,9 +2,9 @@ require 'net/ftp'
 
 def upload_changed_file(file)
 
-				ftp_host  = 'ftp.cluster006.ovh.net'
-				ftp_login = 'gabinetitc'
-				ftp_pass  = 'Somilina64'
+				ftp_host  = ''
+				ftp_login = ''
+				ftp_pass  = ''
 
 				Net::FTP.open(ftp_host, ftp_login, ftp_pass) do |ftp|
 								ftp.chdir('www/testy/stylesheets')
